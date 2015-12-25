@@ -1,0 +1,23 @@
+{
+  "name": "decision-tree-eval",
+  "description": "evaluate decision tree objects",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "dependencies": {
+    "boolean-json-eval": "^3.0.0"
+  },
+  "devDependencies": {
+    "defence-cli": "^1.0.4",
+    "replace-require-self": "^1.0.1"
+  },
+  "files": [
+    "README.md",
+    "LICENSE",
+    "index.js"
+  ],
+  "license": "MIT",
+  "repository": "kemitchell/decision-tree-eval.js",
+  "scripts": {
+    "test": "defence README.md | replace-require-self | node"
+  }
+}
